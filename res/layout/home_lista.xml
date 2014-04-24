@@ -4,10 +4,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <TextView
+        android:id="@+id/label_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radio de Busqueda Actual: 500 mts"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
     <ListView
-        android:id="@+id/listView1"
+        android:id="@+id/lista_instituciones"
         android:layout_width="match_parent"
-        android:layout_height="418dp" >
+        android:layout_height="250dp" >
     </ListView>
 
     <LinearLayout
