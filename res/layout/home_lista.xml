@@ -11,11 +11,17 @@
         android:text="Radio de Busqueda Actual: 500 mts"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
+<LinearLayout
+	android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:gravity="center" >    
+    
     <ListView
         android:id="@+id/lista_instituciones"
         android:layout_width="match_parent"
-        android:layout_height="250dp" >
+        android:layout_height="match_parent" >
     </ListView>
+</LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
