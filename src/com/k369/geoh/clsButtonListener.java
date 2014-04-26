@@ -5,9 +5,9 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.widget.Button;
 
+
 public class clsButtonListener implements OnClickListener
 {
-
 	private final int btnMaps,btnSearch,btnRangeOut,btnRangeIn;
 	private Context context;
 	
@@ -24,11 +24,22 @@ public class clsButtonListener implements OnClickListener
 	{
 	   Button btn = (Button) bt;
 	  
-	   if(btn.getId()==btnSearch)
+	   if(btn.getId() == btnSearch)
 	   {
-		   
+		   //pass
 	   }
-	
+	   else if (btn.getId() == btnMaps) 
+	   {
+		   //pass		   
+	   }
+	   else if (btn.getId() == btnRangeIn) 
+	   {
+		   //pass		   
+	   }
+	   else if (btn.getId() == btnRangeOut) 
+	   {
+		   //pass		   
+	   }
 	}
 
 }
