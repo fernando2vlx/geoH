@@ -9,6 +9,7 @@ import android.widget.Button;
 public class clsButtonListener implements OnClickListener
 {
 	private final int btnMaps,btnSearch,btnRangeOut,btnRangeIn;
+	private HomeLista main;
 	private Context context;
 	
 	public clsButtonListener(Context c,int m,int s,int ro,int ri)
@@ -26,6 +27,7 @@ public class clsButtonListener implements OnClickListener
 	  
 	   if(btn.getId() == btnSearch)
 	   {
+		   main.callSearchView();
 		   //pass
 	   }
 	   else if (btn.getId() == btnMaps) 
